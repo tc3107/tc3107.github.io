@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" role="img" aria-labelledby="title desc">
+  <title id="title">Infrastructure map</title>
+  <desc id="desc">A clean technical diagram with users, firewall, Linux server, automation, backups, monitoring, and self-hosted services.</desc>
+  <rect width="820" height="620" fill="#ffffff"/>
+  <rect x="48" y="48" width="724" height="524" rx="8" fill="#f7f9fc" stroke="#d9e2ec" stroke-width="2"/>
+  <g fill="none" stroke="#9fb1c5" stroke-width="3">
+    <path d="M196 190h110"/>
+    <path d="M458 190h108"/>
+    <path d="M410 248v86"/>
+    <path d="M310 415h-88"/>
+    <path d="M510 415h88"/>
+    <path d="M410 470v44"/>
+  </g>
+  <g>
+    <rect x="92" y="135" width="122" height="110" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+    <circle cx="153" cy="174" r="22" fill="#e8f0fe" stroke="#1f6feb" stroke-width="2"/>
+    <path d="M118 219c8-24 62-24 70 0" fill="none" stroke="#1f6feb" stroke-width="3"/>
+    <text x="153" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#17202a">Users</text>
+  </g>
+  <g>
+    <rect x="306" y="116" width="152" height="148" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+    <rect x="334" y="148" width="96" height="72" rx="6" fill="#eef3f8" stroke="#1f6feb" stroke-width="2"/>
+    <circle cx="356" cy="184" r="7" fill="#24735c"/>
+    <circle cx="382" cy="184" r="7" fill="#24735c"/>
+    <circle cx="408" cy="184" r="7" fill="#24735c"/>
+    <text x="382" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#17202a">Linux Server</text>
+  </g>
+  <g>
+    <rect x="566" y="135" width="144" height="110" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+    <path d="M638 160l44 18v30c0 26-19 42-44 52-25-10-44-26-44-52v-30z" fill="#e9f7f2" stroke="#24735c" stroke-width="3"/>
+    <text x="638" y="273" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#17202a">Firewall</text>
+  </g>
+  <g>
+    <rect x="286" y="334" width="248" height="136" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+    <text x="410" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#17202a">Automation</text>
+    <text x="410" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b6878">Bash scripts · Python checks</text>
+  </g>
+  <g>
+    <rect x="92" y="374" width="130" height="82" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+    <text x="157" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#17202a">Backups</text>
+    <text x="157" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5b6878">restore notes</text>
+  </g>
+  <g>
+    <rect x="598" y="374" width="130" height="82" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
+    <text x="663" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#17202a">Monitoring</text>
+    <text x="663" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5b6878">logs · uptime</text>
+  </g>
+  <g>
+    <rect x="310" y="514" width="200" height="48" rx="8" fill="#e8f0fe" stroke="#1f6feb" stroke-width="2"/>
+    <text x="410" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#17202a">Self-hosted services</text>
+  </g>
+</svg>

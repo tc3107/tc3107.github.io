@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Self-hosted infrastructure lab case study using Linux, Docker, DNS, TLS, and monitoring.">
+  <title>Self-Hosted Lab Case Study | Tudor Cornea</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Tudor Cornea</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../projects.html" aria-current="page">Projects</a>
+      <a href="../cv.html">CV</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="case-study">
+    <header>
+      <p class="eyebrow">Case Study</p>
+      <h1>Self-Hosted Infrastructure Lab</h1>
+      <p class="lead">A home lab project for learning Linux operations, Docker service management, DNS, TLS certificates, and basic monitoring.</p>
+    </header>
+
+    <section>
+      <h2>Goal</h2>
+      <p>Build a self-hosted lab that behaves like a small production environment: services are documented, reachable through predictable names, protected with TLS, monitored, updated, and recoverable.</p>
+    </section>
+
+    <section>
+      <h2>Environment</h2>
+      <ul>
+        <li>Linux host running Docker-based services.</li>
+        <li>Cloudflare DNS records for service routing.</li>
+        <li>Reverse proxy configuration for clean service access.</li>
+        <li>Certificate management for HTTPS endpoints.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Implementation</h2>
+      <ul>
+        <li>Organized services with clear directory structure and environment files.</li>
+        <li>Configured DNS records and reverse proxy routing for selected services.</li>
+        <li>Added certificate handling so public endpoints use HTTPS.</li>
+        <li>Documented update, restart, log review, and backup procedures.</li>
+        <li>Created checks for service availability, disk usage, container status, and exposed ports.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What This Demonstrates</h2>
+      <p>The project demonstrates infrastructure thinking: service ownership, change control, observability, recovery planning, and clear documentation for repeatable maintenance.</p>
+    </section>
+
+    <aside class="case-panel">
+      <h2>Skills Used</h2>
+      <div class="tag-list">
+        <span>Linux</span>
+        <span>Docker</span>
+        <span>DNS</span>
+        <span>TLS</span>
+        <span>Reverse Proxy</span>
+        <span>Monitoring</span>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="../projects.html">Back to projects</a></p>
+    <a href="../contact.html">Contact</a>
+  </footer>
+</body>
+</html>

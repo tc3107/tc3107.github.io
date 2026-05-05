@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Linux server hardening lab case study covering SSH, firewalling, updates, logging, and recovery planning.">
+  <title>Linux Hardening Case Study | Tudor Cornea</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Tudor Cornea</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="../index.html">Home</a>
+      <a href="../projects.html" aria-current="page">Projects</a>
+      <a href="../cv.html">CV</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="case-study">
+    <header>
+      <p class="eyebrow">Case Study</p>
+      <h1>Linux Server Hardening Lab</h1>
+      <p class="lead">A repeatable baseline for reducing common Linux server risks while keeping administration practical and well documented.</p>
+    </header>
+
+    <section>
+      <h2>Goal</h2>
+      <p>Create a hardening checklist that can be applied to a fresh Linux server and reviewed during routine maintenance.</p>
+    </section>
+
+    <section>
+      <h2>Hardening Areas</h2>
+      <ul>
+        <li>SSH configuration with key-based access and reduced password exposure.</li>
+        <li>Firewall rules that expose only required services.</li>
+        <li>Package update checks and restart planning.</li>
+        <li>Least-privilege user access and sudo review.</li>
+        <li>Basic log review for authentication and service events.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Implementation</h2>
+      <ul>
+        <li>Prepared an initial access checklist before changing SSH settings.</li>
+        <li>Configured UFW rules and confirmed listening services with ss.</li>
+        <li>Reviewed users, groups, sudo access, and file permissions for sensitive paths.</li>
+        <li>Added fail2ban-style protection concepts for repeated authentication failures.</li>
+        <li>Documented rollback steps for firewall and SSH changes to reduce lockout risk.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What This Demonstrates</h2>
+      <p>The project demonstrates security fundamentals, operational caution, documentation discipline, and the ability to translate baseline security controls into practical Linux administration tasks.</p>
+    </section>
+
+    <aside class="case-panel">
+      <h2>Skills Used</h2>
+      <div class="tag-list">
+        <span>Linux Security</span>
+        <span>SSH</span>
+        <span>UFW</span>
+        <span>Fail2ban</span>
+        <span>Logs</span>
+        <span>Recovery</span>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="../projects.html">Back to projects</a></p>
+    <a href="../contact.html">Contact</a>
+  </footer>
+</body>
+</html>

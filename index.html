@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entry-level IT and cybersecurity portfolio focused on Linux systems, automation, networking, and self-hosted infrastructure.">
   <title>Tudor Cornea | IT & Cybersecurity Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Tudor Cornea</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="cv.html">CV</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
   <main>
-    <section class="hero">
-      <h1>Tudor Cornea</h1>
-      <p class="subtitle">Linux systems · IT support · automation · networking · cybersecurity</p>
-      <p>
-        I build and maintain Linux servers, automate administration tasks with Python and Bash,
-        troubleshoot networking and system issues, and document security-focused technical work.
-      </p>
-      <div class="links">
-        <a href="#projects">View Projects</a>
-        <a href="assets/cv.pdf">Download CV</a>
-        <a href="https://github.com/YOURUSERNAME">GitHub</a>
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Entry-Level IT & Cybersecurity Candidate</p>
+        <h1>Linux systems, support workflows, and practical security documentation.</h1>
+        <p class="lead">
+          I am building hands-on experience across Linux administration, IT support, automation,
+          networking, and self-hosted infrastructure. This portfolio documents practical projects,
+          repeatable processes, and security-focused troubleshooting.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="projects.html">View Projects</a>
+          <a class="button" href="cv.html">View CV</a>
+        </div>
+      </div>
+      <img class="hero-visual" src="assets/infrastructure-map.svg" alt="Simplified infrastructure diagram showing servers, users, automation, and monitoring.">
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow">Focus Areas</p>
+        <h2>Practical skills for support, operations, and security teams.</h2>
+      </div>
+      <div class="skill-grid" aria-label="Technical focus areas">
+        <div class="skill-item">
+          <h3>Linux Systems</h3>
+          <p>User management, permissions, services, package updates, logs, and recovery basics.</p>
+        </div>
+        <div class="skill-item">
+          <h3>IT Support</h3>
+          <p>Clear troubleshooting notes, repeatable checklists, issue isolation, and documentation.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Automation</h3>
+          <p>Bash and Python scripts for backups, checks, scheduled tasks, and routine administration.</p>
+        </div>
+        <div class="skill-item">
+          <h3>Cybersecurity</h3>
+          <p>SSH hardening, firewall rules, update hygiene, least privilege, logging, and monitoring.</p>
+        </div>
       </div>
     </section>
 
-    <section id="projects">
-      <h2>Featured Projects</h2>
-
-      <article class="card">
-        <h3>Small Business Linux Infrastructure Administration</h3>
-        <p>
-          Managed and secured a Linux-based server environment for a small business,
-          including file services, permissions, backups, network access controls,
-          automation scripts, and troubleshooting.
-        </p>
-        <p><strong>Skills:</strong> Linux, Bash, Python, networking, backups, security hardening</p>
-      </article>
-
-      <article class="card">
-        <h3>Self-Hosted Infrastructure Lab</h3>
-        <p>
-          Built and maintained a personal server environment using Linux, Docker,
-          Cloudflare DNS, SSL certificates, backups, and self-hosted services.
-        </p>
-        <p><strong>Skills:</strong> Linux, Docker, DNS, SSL, Cloudflare, monitoring</p>
-      </article>
-
-      <article class="card">
-        <h3>Linux Server Hardening Lab</h3>
-        <p>
-          Created a repeatable Linux hardening checklist covering SSH security,
-          firewall configuration, updates, user permissions, logging, and recovery planning.
-        </p>
-        <p><strong>Skills:</strong> Linux security, SSH, UFW, fail2ban, logs</p>
-      </article>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:tudor.cornea07@gmail.com">tudor.cornea07@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/YOURUSERNAME">github.com/YOURUSERNAME</a></p>
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Featured Work</p>
+        <h2>Project case studies</h2>
+      </div>
+      <div class="card-grid">
+        <article class="project-card">
+          <div class="card-meta">Linux · Networking · Backups</div>
+          <h3>Small Business Linux Infrastructure</h3>
+          <p>Documented a practical Linux server environment with account controls, shared services, backups, and troubleshooting workflows.</p>
+          <a href="projects/linux-infrastructure.html">Read case study</a>
+        </article>
+        <article class="project-card">
+          <div class="card-meta">Docker · DNS · TLS</div>
+          <h3>Self-Hosted Infrastructure Lab</h3>
+          <p>Built a home lab for self-hosted services, reverse proxying, certificates, monitoring, and operational maintenance.</p>
+          <a href="projects/self-hosted-lab.html">Read case study</a>
+        </article>
+        <article class="project-card">
+          <div class="card-meta">SSH · UFW · Logging</div>
+          <h3>Linux Server Hardening Lab</h3>
+          <p>Created a repeatable hardening checklist covering access control, firewall policy, updates, logs, and recovery planning.</p>
+          <a href="projects/linux-hardening.html">Read case study</a>
+        </article>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <p>Built for GitHub Pages with plain HTML and CSS.</p>
+    <a href="contact.html">Contact</a>
+  </footer>
 </body>
 </html>
