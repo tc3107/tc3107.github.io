@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio capability matrix</title>
+  <desc id="desc">A portfolio-oriented capability matrix showing infrastructure, software, networking, support, and operations work.</desc>
+  <rect width="900" height="700" fill="#ffffff"/>
+  <rect x="40" y="40" width="820" height="620" rx="22" fill="#f7f9fc" stroke="#d9e2ec" stroke-width="2"/>
+
+  <g font-family="Arial, sans-serif">
+    <text x="82" y="96" font-size="16" font-weight="700" fill="#24735c" letter-spacing="1.2">PORTFOLIO OVERVIEW</text>
+    <text x="82" y="140" font-size="36" font-weight="700" fill="#17202a">What I Work Across</text>
+    <text x="82" y="172" font-size="18" fill="#5b6878">A concise summary of the technical areas I handle in practice.</text>
+
+    <rect x="82" y="214" width="736" height="58" rx="12" fill="#eef3f8" stroke="#d9e2ec" stroke-width="2"/>
+    <text x="114" y="249" font-size="14" font-weight="700" fill="#5b6878">AREA</text>
+    <text x="338" y="249" font-size="14" font-weight="700" fill="#5b6878">EXAMPLE SCOPE</text>
+
+    <g>
+      <rect x="82" y="288" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
+      <text x="114" y="321" font-size="19" font-weight="700" fill="#17202a">Infrastructure</text>
+      <text x="338" y="321" font-size="16" fill="#17202a">Server hardware, Linux services, storage, backups, configuration</text>
+    </g>
+
+    <g>
+      <rect x="82" y="356" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
+      <text x="114" y="389" font-size="19" font-weight="700" fill="#17202a">Software</text>
+      <text x="338" y="389" font-size="16" fill="#17202a">Scripts, tools, internal applications, Android apps, debugging</text>
+    </g>
+
+    <g>
+      <rect x="82" y="424" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
+      <text x="114" y="457" font-size="19" font-weight="700" fill="#17202a">Networking</text>
+      <text x="338" y="457" font-size="16" fill="#17202a">DNS, access, connectivity, domains, setup, troubleshooting</text>
+    </g>
+
+    <g>
+      <rect x="82" y="492" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
+      <text x="114" y="525" font-size="19" font-weight="700" fill="#17202a">Support</text>
+      <text x="338" y="525" font-size="16" fill="#17202a">Users, devices, issue handling, clear communication, remote help</text>
+    </g>
+
+    <g>
+      <rect x="82" y="560" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
+      <text x="114" y="593" font-size="19" font-weight="700" fill="#17202a">Operations</text>
+      <text x="338" y="593" font-size="16" fill="#17202a">Monitoring, automation, cloud systems, recovery, day-to-day upkeep</text>
+    </g>
+  </g>
+</svg>
