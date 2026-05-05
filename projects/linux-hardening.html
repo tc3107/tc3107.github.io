@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Security operations and Linux hardening case study covering access control, firewalling, monitoring, backups, and practical risk reduction.">
+  <meta name="description" content="Security operations and hardening case study covering access control, firewalling, monitoring, logs, backups, and practical risk reduction.">
   <title>Security Operations & Hardening | Tudor Cornea</title>
   <link rel="stylesheet" href="../style.css">
 </head>
@@ -22,64 +22,62 @@
     <header>
       <p class="eyebrow">Case Study</p>
       <h1>Security Operations & Hardening</h1>
-      <p class="lead">Practical security work across a small business environment: reducing exposure, protecting access, monitoring for problems, keeping systems recoverable, and making security usable for non-technical employees.</p>
+      <p class="lead">Practical security work in support of live operations: reducing exposure, protecting access, monitoring for problems, and keeping business systems recoverable and usable.</p>
     </header>
 
     <section>
-      <h2>Goal</h2>
-      <p>Maintain a secure and reliable baseline for Linux servers, connected PCs, storage services, remote access, cloud systems, and business data without disrupting daily operations.</p>
+      <h2>Context</h2>
+      <p>Security work in a small business environment is part of normal operations rather than a separate isolated stream. Access, updates, logs, backups, firewalling, and user support all affect real uptime and real business risk.</p>
     </section>
 
     <section>
-      <h2>Security Areas Covered</h2>
+      <h2>Problem / Goal</h2>
+      <p>The goal is to maintain a secure and reliable baseline without introducing fragile controls or unnecessary friction for employees. Security has to support operations, not fight them.</p>
+    </section>
+
+    <section>
+      <h2>My Role</h2>
+      <p>I handle practical security-minded administration across the environment: access control, firewalling, hardening, monitoring, alerting, backup awareness, logs, and incident-aware troubleshooting as part of my broader systems role.</p>
+    </section>
+
+    <section>
+      <h2>What I Built or Maintained</h2>
       <ul>
-        <li><strong>Access control:</strong> user permissions, account access, SSH administration, and least-privilege thinking.</li>
-        <li><strong>Network exposure:</strong> firewalling, allowed services, DNS/domain considerations, and remote access boundaries.</li>
-        <li><strong>System hygiene:</strong> updates, service review, log checks, disk usage monitoring, and configuration awareness.</li>
-        <li><strong>Backup resilience:</strong> keeping important business data recoverable through local and cloud-backed backup workflows.</li>
-        <li><strong>Operational monitoring:</strong> uptime checks, alerts, and custom scripts/software where existing tooling was not enough.</li>
+        <li>Account and permission controls for systems and services.</li>
+        <li>Firewalling and exposure review around business-facing and administrative services.</li>
+        <li>Monitoring and alerts tied to service health, storage issues, and availability risks.</li>
+        <li>Operational routines around updates, logs, service checks, and recovery readiness.</li>
+        <li>Security-conscious documentation that explains workflows without disclosing sensitive implementation details.</li>
       </ul>
     </section>
 
     <section>
-      <h2>Implementation Approach</h2>
-      <ul>
-        <li>Reviewed exposed services and firewall behaviour before and after changes.</li>
-        <li>Used Linux logs and service status checks to investigate operational and access-related issues.</li>
-        <li>Maintained update and restart awareness so security work did not accidentally interrupt business workflows.</li>
-        <li>Applied practical hardening measures around SSH, permissions, backups, and network access.</li>
-        <li>Designed monitoring and alerting around real operational risks such as service failure, storage issues, and availability problems.</li>
-        <li>Kept sensitive details out of public documentation while documenting concepts, workflows, and decision-making.</li>
-      </ul>
+      <h2>Tools / Technologies</h2>
+      <p>Linux, SSH, firewalling, service logs, monitoring and alerting workflows, backup systems, access control practices, and administrative documentation.</p>
     </section>
 
     <section>
-      <h2>Cybersecurity Relevance</h2>
-      <p>This work maps well to junior SOC, NOC, support, and security analyst roles because it involves triage, logs, access issues, suspicious behaviour awareness, reliability, data protection, and clear documentation. The environment is small, but the habits are the same ones larger teams depend on.</p>
+      <h2>Security / Reliability Considerations</h2>
+      <p>This portfolio intentionally omits exact architecture, internal addressing, credentials, full firewall policies, and sensitive configuration. The underlying work is guided by least privilege, recoverability, patch awareness, operational monitoring, and the assumption that backups and logs matter as much as perimeter controls.</p>
     </section>
 
     <section>
-      <h2>What I Learned</h2>
-      <ul>
-        <li>Good security is operational: it has to be monitored, documented, and recoverable.</li>
-        <li>Access control and backups are not side tasks; they are core security controls.</li>
-        <li>Non-technical users need respectful communication, not blame, when security affects workflow.</li>
-        <li>Small environments teach broad responsibility because there is no separate networking, security, support, and infrastructure team to hand work to.</li>
-      </ul>
+      <h2>What This Demonstrates to Employers</h2>
+      <p>I approach security as part of dependable operations. That translates well to infrastructure, support, platform, and security-adjacent roles because it requires careful troubleshooting, risk awareness, communication, and disciplined maintenance habits.</p>
     </section>
 
     <aside class="case-panel">
       <h2>Skills Demonstrated</h2>
       <div class="tag-list">
-        <span>Linux security</span>
-        <span>SSH</span>
-        <span>Firewalling</span>
         <span>Access control</span>
+        <span>Firewalling</span>
+        <span>Hardening</span>
         <span>Monitoring</span>
         <span>Logs</span>
         <span>Backups</span>
         <span>Incident-aware troubleshooting</span>
-        <span>Security documentation</span>
+        <span>Documentation</span>
+        <span>Security-minded administration</span>
       </div>
     </aside>
   </main>
