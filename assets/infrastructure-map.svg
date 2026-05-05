@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
   <title id="title">General IT capability matrix</title>
-  <desc id="desc">A clean capability matrix showing systems, software, networking, support, cloud, automation, operations, and documentation.</desc>
+  <desc id="desc">A clean capability matrix showing systems, software, networking, support, and operations.</desc>
   <rect width="900" height="700" fill="#ffffff"/>
   <rect x="40" y="40" width="820" height="620" rx="22" fill="#f7f9fc" stroke="#d9e2ec" stroke-width="2"/>
 
@@ -12,41 +12,35 @@
     <rect x="82" y="214" width="736" height="58" rx="12" fill="#eef3f8" stroke="#d9e2ec" stroke-width="2"/>
     <text x="114" y="249" font-size="14" font-weight="700" fill="#5b6878">AREA</text>
     <text x="338" y="249" font-size="14" font-weight="700" fill="#5b6878">FOCUS</text>
-    <text x="652" y="249" font-size="14" font-weight="700" fill="#5b6878">WORK</text>
 
     <g>
       <rect x="82" y="288" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
       <text x="114" y="321" font-size="19" font-weight="700" fill="#17202a">Systems</text>
-      <text x="338" y="321" font-size="16" fill="#17202a">Linux services, endpoints, administration</text>
-      <text x="652" y="321" font-size="16" fill="#17202a">configuration, upkeep</text>
+      <text x="338" y="321" font-size="16" fill="#17202a">Linux services, endpoints, administration, configuration, upkeep</text>
     </g>
 
     <g>
       <rect x="82" y="356" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
       <text x="114" y="389" font-size="19" font-weight="700" fill="#17202a">Software</text>
-      <text x="338" y="389" font-size="16" fill="#17202a">Scripts, tools, internal applications</text>
-      <text x="652" y="389" font-size="16" fill="#17202a">build, debug, improve</text>
+      <text x="338" y="389" font-size="16" fill="#17202a">Scripts, tools, internal applications, build, debug, improve</text>
     </g>
 
     <g>
       <rect x="82" y="424" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
       <text x="114" y="457" font-size="19" font-weight="700" fill="#17202a">Networking</text>
-      <text x="338" y="457" font-size="16" fill="#17202a">DNS, access, connectivity, domains</text>
-      <text x="652" y="457" font-size="16" fill="#17202a">setup, troubleshooting</text>
+      <text x="338" y="457" font-size="16" fill="#17202a">DNS, access, connectivity, domains, setup, troubleshooting</text>
     </g>
 
     <g>
       <rect x="82" y="492" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
       <text x="114" y="525" font-size="19" font-weight="700" fill="#17202a">Support</text>
-      <text x="338" y="525" font-size="16" fill="#17202a">Users, devices, issue handling</text>
-      <text x="652" y="525" font-size="16" fill="#17202a">help, explain, resolve</text>
+      <text x="338" y="525" font-size="16" fill="#17202a">Users, devices, issue handling, help, explain, resolve</text>
     </g>
 
     <g>
       <rect x="82" y="560" width="736" height="54" rx="10" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.5"/>
       <text x="114" y="593" font-size="19" font-weight="700" fill="#17202a">Operations</text>
-      <text x="338" y="593" font-size="16" fill="#17202a">Monitoring, backups, automation, cloud</text>
-      <text x="652" y="593" font-size="16" fill="#17202a">run, check, recover</text>
+      <text x="338" y="593" font-size="16" fill="#17202a">Monitoring, backups, automation, cloud, run, check, recover</text>
     </g>
   </g>
 </svg>
