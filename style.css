@@ -63,8 +63,20 @@ img {
 
 .brand {
   color: var(--text);
-  font-weight: 750;
+  font-size: 1.06rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  line-height: 1.1;
+  padding-bottom: 3px;
+  border-bottom: 2px solid rgba(31, 111, 235, 0.22);
   white-space: nowrap;
+}
+
+.brand:hover,
+.brand:focus {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom-color: rgba(31, 111, 235, 0.45);
 }
 
 .site-nav {
