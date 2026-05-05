@@ -1,95 +1,109 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850" role="img" aria-labelledby="title desc">
   <title id="title">Turning problems into working systems</title>
-  <desc id="desc">A polished portfolio hero graphic showing infrastructure, software, support, cloud, DNS, and operations contributing to operational reliability.</desc>
+  <desc id="desc">A clean portfolio overview showing practical technical work across infrastructure, software, networking and cloud, support, and operations.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.55" stop-color="#f8fbff"/>
-      <stop offset="1" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#f4f8fc"/>
     </linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#1f6feb"/>
-      <stop offset="1" stop-color="#1454b5"/>
-    </linearGradient>
-    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#17202a" flood-opacity="0.11"/>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#17202a" flood-opacity="0.08"/>
     </filter>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#17202a" stroke-opacity="0.035" stroke-width="1"/>
-    </pattern>
+
+    <filter id="smallShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#17202a" flood-opacity="0.06"/>
+    </filter>
   </defs>
 
-  <rect width="1200" height="840" fill="url(#bg)"/>
-  <rect width="1200" height="840" fill="url(#grid)" opacity="0.75"/>
+  <rect width="1100" height="850" fill="#ffffff"/>
 
   <g font-family="Inter, Arial, sans-serif">
-    <rect x="58" y="56" width="1084" height="728" rx="34" fill="#ffffff" fill-opacity="0.82" stroke="#d9e2ec" stroke-width="2" filter="url(#softShadow)"/>
+    <rect x="50" y="46" width="1000" height="758" rx="28" fill="url(#bg)" stroke="#d9e2ec" stroke-width="2.2" filter="url(#shadow)"/>
 
-    <text x="104" y="138" font-size="40" font-weight="800" fill="#17202a">Turning problems into working systems</text>
-    <text x="104" y="176" font-size="19" fill="#5b6878">Software, infrastructure, support, cloud, and operations brought together around reliability.</text>
+    <text x="94" y="112" font-size="15" font-weight="800" letter-spacing="1.6" fill="#24735c">PRACTICAL TECHNICAL WORK</text>
+    <text x="94" y="163" font-size="40" font-weight="850" fill="#17202a">Turning problems into working systems</text>
+    <text x="94" y="199" font-size="19" fill="#5b6878">A concise view of how I work across software, systems, and operations.</text>
 
-    <g stroke="#9fb1c5" stroke-width="3" stroke-linecap="round" opacity="0.72">
-      <path d="M600 400 L338 330"/>
-      <path d="M600 400 L862 330"/>
-      <path d="M600 400 L338 546"/>
-      <path d="M600 400 L862 546"/>
-      <path d="M600 400 L600 659"/>
+    <rect x="94" y="246" width="912" height="54" rx="14" fill="#edf3f8" stroke="#d9e2ec" stroke-width="2"/>
+    <text x="152" y="280" font-size="14" font-weight="800" letter-spacing="0.8" fill="#5b6878">AREA</text>
+    <text x="430" y="280" font-size="14" font-weight="800" letter-spacing="0.8" fill="#5b6878">SCOPE</text>
+
+    <!-- Row 1: Infrastructure -->
+    <g>
+      <rect x="94" y="326" width="912" height="80" rx="14" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.8"/>
+      <circle cx="139" cy="366" r="25" fill="#edf4ff" stroke="#d5e5ff" stroke-width="1.5" filter="url(#smallShadow)"/>
+      <!-- minimal server rack -->
+      <g fill="none" stroke="#1f6feb" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="124" y="350" width="30" height="12" rx="2.5"/>
+        <rect x="124" y="370" width="30" height="12" rx="2.5"/>
+        <path d="M130 356h.1M130 376h.1"/>
+        <path d="M144 356h5M144 376h5"/>
+      </g>
+      <text x="184" y="374" font-size="26" font-weight="800" fill="#17202a">Infrastructure</text>
+      <text x="430" y="374" font-size="22" fill="#17202a">Servers, Linux services, storage, backups.</text>
     </g>
 
-    <g filter="url(#softShadow)">
-      <rect x="96" y="268" width="410" height="148" rx="20" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
-      <circle cx="142" cy="318" r="19" fill="#e8f0fe"/>
-      <path d="M131 318h22M142 307v22" stroke="#1f6feb" stroke-width="3" stroke-linecap="round"/>
-      <text x="178" y="310" font-size="22" font-weight="800" fill="#17202a">Infrastructure</text>
-      <text x="178" y="342" font-size="16" fill="#5b6878">Server hardware, Linux services,</text>
-      <text x="178" y="367" font-size="16" fill="#5b6878">storage, backups, networking,</text>
-      <text x="178" y="392" font-size="16" fill="#5b6878">and uptime-focused maintenance.</text>
+    <!-- Row 2: Software -->
+    <g>
+      <rect x="94" y="420" width="912" height="80" rx="14" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.8"/>
+      <circle cx="139" cy="460" r="25" fill="#edf8f4" stroke="#d8efe7" stroke-width="1.5" filter="url(#smallShadow)"/>
+      <!-- terminal/code window -->
+      <g fill="none" stroke="#24735c" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="122" y="444" width="34" height="32" rx="4"/>
+        <path d="M122 452h34"/>
+        <path d="M132 462l-6 6 6 6"/>
+        <path d="M142 462l6 6-6 6"/>
+      </g>
+      <text x="184" y="468" font-size="26" font-weight="800" fill="#17202a">Software</text>
+      <text x="430" y="468" font-size="22" fill="#17202a">Scripts, internal tools, Android apps.</text>
     </g>
 
-    <g filter="url(#softShadow)">
-      <rect x="694" y="268" width="410" height="148" rx="20" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
-      <circle cx="740" cy="318" r="19" fill="#e9f7f2"/>
-      <path d="M730 319l8 8 15-20" fill="none" stroke="#24735c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-      <text x="776" y="310" font-size="22" font-weight="800" fill="#17202a">Software</text>
-      <text x="776" y="342" font-size="16" fill="#5b6878">Scripts, internal tools, Android</text>
-      <text x="776" y="367" font-size="16" fill="#5b6878">apps, debugging, automation,</text>
-      <text x="776" y="392" font-size="16" fill="#5b6878">and practical problem solving.</text>
+    <!-- Row 3: Networking & Cloud -->
+    <g>
+      <rect x="94" y="514" width="912" height="80" rx="14" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.8"/>
+      <circle cx="139" cy="554" r="25" fill="#f5efff" stroke="#e6d8ff" stroke-width="1.5" filter="url(#smallShadow)"/>
+      <!-- network nodes, not cloud doodle -->
+      <g fill="none" stroke="#7c3aed" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="139" cy="554" r="6"/>
+        <circle cx="124" cy="541" r="5"/>
+        <circle cx="155" cy="541" r="5"/>
+        <circle cx="126" cy="570" r="5"/>
+        <circle cx="154" cy="570" r="5"/>
+        <path d="M134 550l-7-6M144 550l8-6M134 559l-6 8M145 559l7 8"/>
+      </g>
+      <text x="184" y="548" font-size="26" font-weight="800" fill="#17202a">Networking</text>
+      <text x="184" y="579" font-size="26" font-weight="800" fill="#17202a">&amp; Cloud</text>
+      <text x="430" y="562" font-size="22" fill="#17202a">DNS, Cloudflare, domains, hosted systems.</text>
     </g>
 
-    <g filter="url(#softShadow)">
-      <rect x="96" y="504" width="410" height="148" rx="20" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
-      <circle cx="142" cy="554" r="19" fill="#fff5df"/>
-      <path d="M131 558c8-13 14-13 22 0M133 547c6-8 12-8 18 0" fill="none" stroke="#b7791f" stroke-width="3" stroke-linecap="round"/>
-      <text x="178" y="546" font-size="22" font-weight="800" fill="#17202a">Support</text>
-      <text x="178" y="578" font-size="16" fill="#5b6878">Users, devices, troubleshooting,</text>
-      <text x="178" y="603" font-size="16" fill="#5b6878">remote help, and explanations</text>
-      <text x="178" y="628" font-size="16" fill="#5b6878">that non-technical people can use.</text>
+    <!-- Row 4: Support -->
+    <g>
+      <rect x="94" y="608" width="912" height="80" rx="14" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.8"/>
+      <circle cx="139" cy="648" r="25" fill="#fff6e6" stroke="#f4dfb7" stroke-width="1.5" filter="url(#smallShadow)"/>
+      <!-- support/chat bubble + check, less headset -->
+      <g fill="none" stroke="#b7791f" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M122 638c0-7 6-12 13-12h10c8 0 14 5 14 12v8c0 7-6 12-14 12h-10l-11 10v-10h-2c-7 0-12-5-12-12z"/>
+        <path d="M132 644l5 5 11-12"/>
+      </g>
+      <text x="184" y="656" font-size="26" font-weight="800" fill="#17202a">Support</text>
+      <text x="430" y="656" font-size="22" fill="#17202a">Users, devices, troubleshooting, communication.</text>
     </g>
 
-    <g filter="url(#softShadow)">
-      <rect x="694" y="504" width="410" height="148" rx="20" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
-      <circle cx="740" cy="554" r="19" fill="#f4edff"/>
-      <path d="M730 554h22M741 543v22" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
-      <text x="776" y="546" font-size="22" font-weight="800" fill="#17202a">Cloud &amp; DNS</text>
-      <text x="776" y="578" font-size="16" fill="#5b6878">Hosted systems, domains, access,</text>
-      <text x="776" y="603" font-size="16" fill="#5b6878">Cloudflare, provider admin,</text>
-      <text x="776" y="628" font-size="16" fill="#5b6878">and connectivity troubleshooting.</text>
-    </g>
-
-    <g filter="url(#softShadow)">
-      <circle cx="600" cy="400" r="78" fill="url(#blue)"/>
-      <circle cx="600" cy="400" r="60" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.36" stroke-width="2"/>
-      <text x="600" y="391" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Operational</text>
-      <text x="600" y="420" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">Reliability</text>
-    </g>
-
-    <g filter="url(#softShadow)">
-      <rect x="350" y="690" width="500" height="74" rx="20" fill="#ffffff" stroke="#d9e2ec" stroke-width="2"/>
-      <circle cx="396" cy="727" r="19" fill="#e9f7f2"/>
-      <path d="M396 714l13 8v15l-13 8-13-8v-15z" fill="none" stroke="#24735c" stroke-width="3" stroke-linejoin="round"/>
-      <text x="436" y="721" font-size="22" font-weight="800" fill="#17202a">Operations</text>
-      <text x="436" y="748" font-size="16" fill="#5b6878">Monitoring, alerts, security, recovery, and upkeep.</text>
+    <!-- Row 5: Operations -->
+    <g>
+      <rect x="94" y="702" width="912" height="80" rx="14" fill="#ffffff" stroke="#d9e2ec" stroke-width="1.8"/>
+      <circle cx="139" cy="742" r="25" fill="#edf8f4" stroke="#d8efe7" stroke-width="1.5" filter="url(#smallShadow)"/>
+      <!-- operations pulse / monitor -->
+      <g fill="none" stroke="#0f766e" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="122" y="726" width="34" height="26" rx="4"/>
+        <path d="M132 760h14"/>
+        <path d="M139 752v8"/>
+        <path d="M128 740h7l4-7 6 15 4-8h5"/>
+      </g>
+      <text x="184" y="750" font-size="26" font-weight="800" fill="#17202a">Operations</text>
+      <text x="430" y="750" font-size="22" fill="#17202a">Monitoring, automation, recovery, upkeep.</text>
     </g>
   </g>
 </svg>
