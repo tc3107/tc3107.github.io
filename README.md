@@ -20,5 +20,4 @@ Static portfolio for an entry-level IT and cybersecurity candidate. The site use
 4. Save the setting and wait for GitHub Pages to publish the site.
 
 ## Customization
-
 Update the name, email, GitHub URL, project details, and CV content directly in the HTML files.
