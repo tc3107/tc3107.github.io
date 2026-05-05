@@ -265,6 +265,20 @@ p {
   flex-direction: column;
 }
 
+.repo-card {
+  gap: 10px;
+}
+
+.repo-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #f4f7fb;
+  border: 1px solid var(--line);
+  padding: 6px;
+}
+
 .project-card p,
 .skill-item p,
 .contact-card p,
