@@ -149,7 +149,7 @@ h3 {
 
 h1 {
   max-width: 900px;
-  font-size: clamp(2.2rem, 5vw, 4.7rem);
+  font-size: clamp(1.95rem, 4vw, 3.5rem);
 }
 
 h2 {
@@ -167,7 +167,7 @@ p {
 .lead {
   max-width: 760px;
   color: var(--muted);
-  font-size: 1.16rem;
+  font-size: 1.03rem;
 }
 
 .actions {
